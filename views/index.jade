@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  script.
+      var nombre;
+      var apellidos;
+      var telcasa;
+      var telmobil;
+      nombre = prompt('Ingrese su nombre:', '');
+      apellidos = prompt('Ingrese suss apellidos:', '');
+      telcasa = prompt('Ingrese su telefono de casa');
+      telmobil = prompt('Ingrese su telefono mobil');
+
+
